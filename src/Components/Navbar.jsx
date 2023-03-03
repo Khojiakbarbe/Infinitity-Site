@@ -10,7 +10,7 @@ import {
 } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-import logo from './images/navbar/infinityLogo.png'
+import logo from '../images/navbar/infinityLogo.png'
 
 
 
@@ -33,9 +33,12 @@ function MyNavbar(args) {
                     </Nav>
                     <NavbarText>
                         <NavLink >
-                            <Link to='/'>
-                                Kurslar
-                            </Link>
+                            <select  class="form-select" style={{border: 'none'}} aria-label=".form-select-lg example" >
+                                <option value="">Kurslar</option>
+                                <option value="">Dasturlash</option>
+                                <option value="">English</option>
+                                <option value="">Matematika</option>
+                            </select>
                         </NavLink>
                     </NavbarText>
                     <NavbarText>
