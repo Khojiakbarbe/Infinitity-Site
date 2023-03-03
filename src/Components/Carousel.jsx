@@ -18,16 +18,20 @@ export default function Carousel() {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" className="border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" className="border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className="border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-label="Slide 4"></button>
             </div>
             <div className="carousel-inner mb-5" >
                 <div className="carousel-item active">
-                    <h1>Zamonaviy kasblarni biz <br /> bilan o’rganing - 1</h1>
+                    <h1>Zamonaviy kasblarni biz <br /> bilan o’rganing</h1>
                 </div>
                 <div className="carousel-item">
-                    <h1>Zamonaviy kasblarni biz <br /> bilan o’rganing - 2</h1>
+                    <h1>We change lives through <br /> education</h1>
                 </div>
                 <div className="carousel-item">
-                    <h1>Zamonaviy kasblarni biz <br /> bilan o’rganing - 3</h1>
+                    <h1>Hayotingizni ta'lim orqali <br /> o'zgartiramiz</h1>
+                </div>
+                <div className="carousel-item">
+                    <h1>Study modern subjects <br /> with us</h1>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

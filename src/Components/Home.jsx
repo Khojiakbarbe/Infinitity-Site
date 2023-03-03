@@ -34,22 +34,22 @@ export default function Home() {
                     <div className="col-md-4 p-3">
                         <div>
                             <h2>Dasturlash</h2>
-                            <p>Mre then 12 courses</p>
-                            <Link to="/">view </Link>
+                            <p>Foundation, Frontend, Backend</p>
+                            <Link to="/">ko'rish </Link>
                         </div>
                     </div>
                     <div className="col-md-4 p-3">
                         <div>
                             <h2>Ingliz tili</h2>
-                            <p>Mre then 12 courses</p>
-                            <Link to="/">view </Link>
+                            <p>Kids, General, IELTS</p>
+                            <Link to="/">ko'rish </Link>
                         </div>
                     </div>
                     <div className="col-md-4 p-3">
                         <div>
                             <h2>Matematika</h2>
-                            <p>Mre then 12 courses</p>
-                            <Link to="/">view </Link>
+                            <p>Kichik va Katta yoshdagilar uchun</p>
+                            <Link to="/">ko'rish </Link>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Home() {
                             Extra lessons</div>
                         <div className="col-md-4 mt-3"><button className="carouselBatafsilBtn">Batafsil</button></div>
                     </div>
-                    <div className="col-md-6" style={{textAlign:'end'}}>
+                    <div className="col-md-6" style={{ textAlign: 'end' }}>
                         <img src={negaBizImg} className='negaBizImg' alt="" />
                     </div>
                 </div>
@@ -90,24 +90,24 @@ export default function Home() {
 
             {/* Bizning galereya */}
 
-        <div className="bizningGalereya row ">
-            <h4 className="mb-5"><strong>Bizning galereya</strong></h4>
-            <div className="col-md-8 p-2">
-                <img src={galereya1} alt="" />
+            <div className="bizningGalereya row ">
+                <h4 className="mb-5"><strong>Bizning galereya</strong></h4>
+                <div className="col-md-8 p-2">
+                    <img src={galereya1} alt="" />
+                </div>
+                <div className="col-md-4 p-2">
+                    <img src={galereya2} alt="" />
+                </div>
+                <div className="col-md-4 p-2">
+                    <img src={galereya3} alt="" />
+                </div>
+                <div className="col-md-4 p-2">
+                    <img src={galereya4} alt="" />
+                </div>
+                <div className="col-md-4 p-2">
+                    <img src={galereya5} alt="" />
+                </div>
             </div>
-            <div className="col-md-4 p-2">
-                <img src={galereya2}  alt="" />
-            </div>
-            <div className="col-md-4 p-2">
-                <img src={galereya3} alt="" />
-            </div>
-            <div className="col-md-4 p-2">
-                <img src={galereya4} alt="" />
-            </div>
-            <div className="col-md-4 p-2">
-                <img src={galereya5} alt="" />
-            </div>
-        </div>
 
         </div>
     )
