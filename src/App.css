@@ -63,8 +63,6 @@
 
 .negaBizImg{
   width: 60%;
-  position: relative;
-  right: -50%;
 }
 
 /* Bizning galereya */
@@ -74,4 +72,20 @@
 .bizningGalereya div img{
   width: 100%;
   height: 300px;
+}
+
+/* footer */
+.footer{
+  padding: 5%;
+  padding-bottom: 0;
+  background: #FEF8F1;
+  background-image: url('./images/footer/InfinitySymbol.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.messengers img{
+  padding: 1%;
+  cursor: pointer;
 }

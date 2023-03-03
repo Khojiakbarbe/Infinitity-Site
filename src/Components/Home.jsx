@@ -82,7 +82,7 @@ export default function Home() {
                             Extra lessons</div>
                         <div className="col-md-4 mt-3"><button className="carouselBatafsilBtn">Batafsil</button></div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6" style={{textAlign:'end'}}>
                         <img src={negaBizImg} className='negaBizImg' alt="" />
                     </div>
                 </div>
