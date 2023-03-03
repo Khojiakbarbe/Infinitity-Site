@@ -33,7 +33,7 @@ function MyNavbar(args) {
                     </Nav>
                     <NavbarText>
                         <NavLink >
-                            <select  class="form-select" style={{border: 'none'}} aria-label=".form-select-lg example" >
+                            <select  className="form-select" style={{border: 'none'}} aria-label=".form-select-lg example" >
                                 <option value="">Kurslar</option>
                                 <option value="">Dasturlash</option>
                                 <option value="">English</option>

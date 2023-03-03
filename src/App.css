@@ -1,0 +1,77 @@
+.carouselButtons button {
+  position: relative;
+  left: -50%;
+}
+
+.carouselBatafsilBtn {
+  border: 1px solid #E79215;
+  background-color: #fff;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-right: 2%;
+  border-radius: 4px;
+}
+.carouselBatafsilBtn:hover {
+  background: #E79215;
+  color: white;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .carouselButtons button {
+    position: relative;
+    left: -30%;
+  }
+  
+}
+
+.carouselImg {
+  width: 50%;
+}
+
+/* Asosiy yo'nalishlar */
+.asosiyYonalishlar {
+  margin-top: 10%;
+}
+
+.asosiyYonalishlar .row div div {
+  border: 1px solid #D1D5DB;
+  border-radius: 10px;
+  padding: 10%;
+  
+}
+.asosiyYonalishlar .row div div:hover{
+  background: #E79215;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+/* Nega ayan biz? */
+.negaAyanBiz{
+  margin-top: 5%;
+}
+
+.negaAyanBizCol{
+  font-size: 120%;
+}
+.negaAyanBizCol img{
+  padding: 3%;
+  width: 13%;
+}
+
+.negaBizImg{
+  width: 60%;
+  position: relative;
+  right: -50%;
+}
+
+/* Bizning galereya */
+.bizningGalereya{
+  margin-top: 8%;
+}
+.bizningGalereya div img{
+  width: 100%;
+  height: 300px;
+}
