@@ -7,7 +7,7 @@ import MyNavbar from './Components/Navbar';
 
 import './App.css';
 import Dasturlash from './Components/Dasturlash/Dasturlash';
-
+import Foundation from './Components/Dasturlash/Foundation';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/dasturlash' element={<Dasturlash />} />
+        <Route path='/foundation' element={<Foundation />}/>
       </Routes>
       <Footer />
     </Router>

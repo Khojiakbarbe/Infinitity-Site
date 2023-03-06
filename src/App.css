@@ -236,9 +236,24 @@
   border: none;
   font-weight: 500;
 }
-.contactInputs button:hover{
+
+.contactInputs button:hover {
   color: #3F3D56;
   background-color: white;
   border: 1px solid #3F3D56;
   transition: 0.5s;
+}
+
+/* Foundation */
+.foundationImages img {
+  width: 40%;
+  padding-top: 25%;
+  position: relative;
+  left: -20%;
+}
+.foundationImg1{
+  position: relative;
+  top: 20%;
+  margin-right: -30%;
+  margin-top: 50%;
 }

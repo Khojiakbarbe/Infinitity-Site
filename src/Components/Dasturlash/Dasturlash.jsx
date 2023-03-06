@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import img1 from '../../images/dasturlash/img1.png'
 import img2 from '../../images/dasturlash/img2.png'
 import img3 from '../../images/dasturlash/img3.png'
@@ -7,10 +7,15 @@ import img4 from '../../images/dasturlash/img4.png'
 import img5 from '../../images/dasturlash/img5.png'
 
 export default function Dasturlash() {
+    
+    const navigate = useNavigate();
+
     return (
         <div className="container mb-5">
             <p className="mb-5">
-                <Link to='/'>Home </Link>
+                <span onClick={() => navigate('/')} style={{cursor:'pointer'}}>
+                    Home 
+                </span>
                 | Dasturlash
             </p>
             <div className="dasturlashKurslar row">
@@ -20,7 +25,7 @@ export default function Dasturlash() {
                 <div className="col-md-6 ">
                     <h1>Foundation</h1>
                     <h5 >Dasturlash sohasi bo’yicha hech qanday bilimga ega <br /> bo’lmagan har qanday inson dasturlash saboqlarini <br /> o’rganishi mumkin</h5>
-                    <button className="batafsilBtn">Batafsil</button>
+                    <button className="batafsilBtn" onClick={() => navigate('/foundation')}>Batafsil</button>
                     <button className="batafsilBtn" style={{ marginLeft: '2%' }}>Kursga yozilish</button>
                 </div>
             </div>
