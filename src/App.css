@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  color: black;
+}
 /* Navbar */
 
 .kurslarBtn {
@@ -265,14 +269,49 @@
 .aboutInfinity {
   padding: 3%;
 }
-.aboutInfinity h1{
+
+.aboutInfinity h1 {
   font-size: 400%;
   margin-bottom: 15%;
 }
-.aboutInfinity p{
+
+.aboutInfinity p {
   font-size: 150%;
   margin-bottom: 5%;
 }
+
 .aboutUsImg img {
   width: 100%;
+}
+
+
+
+/* Aloqa */
+
+.boglanishMalumoti {
+  padding: 5%;
+  border: 2px solid #D1D5DB;
+}
+
+.boglanishMalumoti h3 {
+  margin-bottom: 5%;
+}
+
+.boglanishMalumoti h5 {
+  margin-bottom: 3%;
+}
+
+.boglanishMalumoti button {
+  width: 30%;
+  margin-top: 5%;
+  margin-right: 2%;
+  border: 1px solid #D1D5DB;
+  border-radius: 5%;
+  padding: 2%;
+  background: white;
+}
+
+.boglanishMalumoti button:hover {
+  background-color: #FDF4E8;
+  transition: 0.3s;
 }

@@ -6,6 +6,7 @@ import MyNavbar from './Components/Navbar';
 import Dasturlash from './Components/Dasturlash/Dasturlash';
 import Foundation from './Components/Dasturlash/Foundation';
 import AboutUs from './Components/AboutUs';
+import Aloqa from './Components/Aloqa';
 
 
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
         <Route path='/dasturlash' element={<Dasturlash />} />
         <Route path='/foundation' element={<Foundation />}/>
         <Route path='/aboutUs' element={<AboutUs />}/>
+        <Route path='/aloqa' element={<Aloqa />}/>
       </Routes>
       <Footer />
     </Router>

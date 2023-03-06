@@ -60,7 +60,7 @@ function MyNavbar(args) {
                     </NavbarText>
                     <NavbarText>
                         <NavLink>
-                            <Link to='/'>
+                            <Link to='/aloqa'>
                                 Aloqa
                             </Link>
                         </NavLink>
