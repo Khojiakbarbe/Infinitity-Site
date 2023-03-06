@@ -12,7 +12,7 @@ import React from "react";
 
 export default function Carousel() {
     return (
-        <div id="carouselExampleCaptions" className="carousel slide h-100 " data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" className="carousel slide h-100 mt-5" data-bs-ride="carousel">
             <div className="carousel-indicators carouselButtons" style={{ marginTop: '20%', zIndex: '5' }}>
                 <button className="carouselBatafsilBtn">Batafsil</button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-current="true" aria-label="Slide 1"></button>

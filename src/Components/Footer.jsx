@@ -10,7 +10,9 @@ import telegram from '../images/footer/telegram.png'
 export default function Footer() {
     return (
         <div className='footer'>
-            <div className="container row" style={{ margin: '0 auto' }}>
+            <div data-aos="fade-up"
+                data-aos-duration="8000"
+                className="container row p-5" style={{ margin: '0 auto' }}>
                 <div className="col-md-2">
                     <h5><strong>Dasturlash</strong></h5>
                     <p>FrontEnd</p>
@@ -47,7 +49,9 @@ export default function Footer() {
                 </div>
             </div>
             <hr />
-            <div className="container row">
+            <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" className="container row">
                 <div className="col-md-6">
                     <p>© 2022. All rights reserved</p>
                 </div>

@@ -33,7 +33,7 @@ function MyNavbar(args) {
                     </Nav>
                     <NavbarText>
                         <NavLink >
-                            <select  className="form-select" style={{border: 'none'}} aria-label=".form-select-lg example" >
+                            <select className="form-select" style={{ border: 'none' }} aria-label=".form-select-lg example" >
                                 <option value="">Kurslar</option>
                                 <option value="">Dasturlash</option>
                                 <option value="">English</option>
@@ -55,9 +55,8 @@ function MyNavbar(args) {
                             </Link>
                         </NavLink>
                     </NavbarText>
-
-                    <NavbarText>
-                        <button className='btn btn-warning'>Apply</button>
+                    <NavbarText style={{width: '15%'}}>
+                        <button className='applyButton'>Ro'yhatdan o'tish</button>
                     </NavbarText>
                 </Collapse>
             </Navbar>
