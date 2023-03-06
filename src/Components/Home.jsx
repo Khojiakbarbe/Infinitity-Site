@@ -30,7 +30,7 @@ export default function Home() {
 
             {/* Yo'nalishlar */}
 
-            <div className="asosiyYonalishlar" style={{ overflow: 'hidden' }}>
+            <div className="asosiyYonalishlar" >
                 <h4><strong>Asosiy yo'nalishlar</strong></h4>
                 <div className="row mt-4">
                     <div data-aos="fade-right" className="col-md-4 p-3">
@@ -62,8 +62,8 @@ export default function Home() {
             <div className="negaAyanBiz">
                 <h4>Nega aynan biz?</h4>
 
-                <div className="row mt-5">
-                    <div className="col-md-7 row mt-5" style={{overflow:'hidden'}}>
+                <div className="row mt-5" style={{overflow:'hidden'}}>
+                    <div className="col-md-7 row mt-5" >
                         <div className="col-md-6">
                             <div data-aos="fade-right" className="negaAyanBizCol">
                                 <img src={kubok} alt="" />
@@ -93,7 +93,7 @@ export default function Home() {
                                 Extra lessons
                             </div>
                         </div>
-                        <div data-aos="fade-left"  className="col-md-4 mt-3"><button className="carouselBatafsilBtn">Batafsil</button></div>
+                        <div data-aos="fade-left"  className="col-md-4 mt-3"><button className="batafsilBtn">Batafsil</button></div>
                     </div>
                     <div data-aos="fade-left" className="col-md-5" style={{ textAlign: 'end' }}>
                         <img  src={negaBizImg} className='negaBizImg' alt="" />

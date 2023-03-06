@@ -6,6 +6,7 @@ import MyNavbar from './Components/Navbar';
 
 
 import './App.css';
+import Dasturlash from './Components/Dasturlash/Dasturlash';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <MyNavbar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/dasturlash' element={<Dasturlash />} />
       </Routes>
       <Footer />
     </Router>

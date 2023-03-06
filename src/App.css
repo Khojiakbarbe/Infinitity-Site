@@ -1,4 +1,10 @@
 /* Navbar */
+
+.kurslarBtn {
+  border: none;
+  background-color: white;
+}
+
 .applyButton {
   background: #E79215;
   border-radius: 4px;
@@ -7,12 +13,15 @@
   padding: 5%;
   width: 100%;
 }
-.applyButton:hover{
+
+.applyButton:hover {
   background-color: white;
   border: 1px solid #E79215;
   color: black;
   transition: 0.5s;
 }
+
+
 
 /* Home page started */
 /* Carousel */
@@ -20,23 +29,27 @@
   position: relative;
   left: -50%;
 }
-.carouselButtons button:active{
+
+.carouselButtons button:active {
   border: 5px solid;
 }
-.carouselButtons .active{
+
+.carouselButtons .active {
   border: 1px solid red;
 }
 
-.carouselBatafsilBtn {
+.batafsilBtn {
   border: 1px solid #E79215;
   background-color: #fff;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
   margin-right: 2%;
+  margin-top: -2%;
   border-radius: 4px;
 }
 
-.carouselBatafsilBtn:hover {
+.batafsilBtn:hover {
   background: #E79215;
   color: white;
   transition: 0.5s;
@@ -57,6 +70,7 @@
 /* Asosiy yo'nalishlar */
 .asosiyYonalishlar {
   margin-top: 20%;
+  overflow: hidden;
 }
 
 .asosiyYonalishlar .row div div {
@@ -97,6 +111,7 @@
 /* Bizning galereya */
 .bizningGalereya {
   margin-top: 8%;
+  overflow: hidden;
 }
 
 .bizningGalereya div img {
@@ -112,10 +127,118 @@
   background-image: url('./images/footer/InfinitySymbol.png');
   background-size: 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 
 .messengers img {
   padding: 1%;
   cursor: pointer;
+}
+
+
+
+/* Dasturlash */
+.dasturlashKurslar {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  text-align: end;
+  padding-top: 5%;
+  font-family: 'Poppins';
+}
+
+.dasturlashKurslar img {
+  margin-top: -18%;
+  width: 80%;
+}
+
+.dasturlashKurslar h1 {
+  font-size: 400%;
+}
+
+.dasturlashKurslar h5 {
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+.backend {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  text-align: end;
+  padding-top: 5%;
+  font-family: 'Poppins';
+}
+
+.backendImgs {
+  margin-left: -10%;
+}
+
+.backendImgs img {
+  width: 50%;
+}
+
+.compImg {
+  margin-bottom: -30%;
+}
+
+.backend h1 {
+  font-size: 400%;
+}
+
+.backend p {
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+@media only screen and (max-width: 768px) {
+  .responsiveMargin {
+    margin-bottom: 15%;
+  }
+}
+
+.contactUs {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  padding: 5%;
+}
+
+.contactUs h5 {
+  color: #D1D5DB;
+}
+
+.contactUs h1 {
+  margin-bottom: 7%;
+}
+
+.contactUs img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactInputs {
+  padding-top: 7%;
+}
+
+.contactInputs input {
+  width: 100%;
+  padding: 2%;
+  border: none;
+  border-bottom: 1px solid #D1D5DB;
+  margin-bottom: 5%;
+}
+
+.contactInputs button {
+  background: #3F3D56;
+  border-radius: 4px;
+  width: 20%;
+  color: white;
+  padding: 2%;
+  border: none;
+  font-weight: 500;
+}
+.contactInputs button:hover{
+  color: #3F3D56;
+  background-color: white;
+  border: 1px solid #3F3D56;
+  transition: 0.5s;
 }

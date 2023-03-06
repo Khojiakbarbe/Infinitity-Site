@@ -33,12 +33,22 @@ function MyNavbar(args) {
                     </Nav>
                     <NavbarText>
                         <NavLink >
-                            <select className="form-select" style={{ border: 'none' }} aria-label=".form-select-lg example" >
-                                <option value="">Kurslar</option>
-                                <option value="">Dasturlash</option>
-                                <option value="">English</option>
-                                <option value="">Matematika</option>
-                            </select>
+                            <div className="btn-group">
+                                <button  className="kurslarBtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Kurslar
+                                </button>
+                                <ul className="dropdown-menu">
+                                    <Link to='/dasturlash'>
+                                        <li><a className="dropdown-item" >Dasturlash</a></li>
+                                    </Link>
+                                    <Link to='/'>
+                                        <li><a className="dropdown-item" >English</a></li>
+                                    </Link>
+                                    <Link to='/'>
+                                        <li><a className="dropdown-item" >Matematika</a></li>
+                                    </Link>
+                                </ul>
+                            </div>
                         </NavLink>
                     </NavbarText>
                     <NavbarText>
@@ -55,7 +65,7 @@ function MyNavbar(args) {
                             </Link>
                         </NavLink>
                     </NavbarText>
-                    <NavbarText style={{width: '15%'}}>
+                    <NavbarText style={{ width: '15%' }}>
                         <button className='applyButton'>Ro'yhatdan o'tish</button>
                     </NavbarText>
                 </Collapse>

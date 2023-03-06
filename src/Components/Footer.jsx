@@ -10,9 +10,10 @@ import telegram from '../images/footer/telegram.png'
 export default function Footer() {
     return (
         <div className='footer'>
-            <div data-aos="fade-up"
-                data-aos-duration="8000"
-                className="container row p-5" style={{ margin: '0 auto' }}>
+            <div 
+            data-aos="flip-down"
+                // data-aos-duration="8000"
+                className="container row p-5" style={{ margin: '0 auto', overflow:'hidden' }}>
                 <div className="col-md-2">
                     <h5><strong>Dasturlash</strong></h5>
                     <p>FrontEnd</p>
