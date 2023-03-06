@@ -13,7 +13,7 @@ export default function Aloqa() {
         <div className="container mt-5 mb-5">
             <div className="row aloqaRow">
                 <div className="col-md-6">
-                    <img src={img} />
+                    <img src={img} className='img-fluid' />
                 </div>
                 <div className="col-md-6 boglanishMalumoti">
                     <h3> Bog’lanish ma’lumotlari</h3>
