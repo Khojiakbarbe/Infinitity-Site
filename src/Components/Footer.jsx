@@ -50,14 +50,12 @@ export default function Footer() {
                 </div>
             </div>
             <hr />
-            <div data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" className="container row">
+            <div data-aos="zoom-out" className="container row">
                 <div className="col-md-6">
                     <p>© 2022. All rights reserved</p>
                 </div>
-                <div className="col-md-6 text-end">
-                    +998 (71) 200-11-23
+                <div className="col-md-6 ">
+                    <p className="text-end">+998 (71) 200-11-23</p>
                 </div>
             </div>
         </div>

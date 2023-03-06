@@ -34,7 +34,7 @@ function MyNavbar(args) {
                     <NavbarText>
                         <NavLink >
                             <div className="btn-group">
-                                <button  className="kurslarBtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button className="kurslarBtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Kurslar
                                 </button>
                                 <ul className="dropdown-menu">
@@ -53,7 +53,7 @@ function MyNavbar(args) {
                     </NavbarText>
                     <NavbarText>
                         <NavLink >
-                            <Link to='/'>
+                            <Link to='/aboutUs'>
                                 Biz haqimizda
                             </Link>
                         </NavLink>

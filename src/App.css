@@ -251,9 +251,28 @@
   position: relative;
   left: -20%;
 }
-.foundationImg1{
+
+.foundationImg1 {
   position: relative;
   top: 20%;
   margin-right: -30%;
   margin-top: 50%;
+}
+
+
+
+/* ABout us */
+.aboutInfinity {
+  padding: 3%;
+}
+.aboutInfinity h1{
+  font-size: 400%;
+  margin-bottom: 15%;
+}
+.aboutInfinity p{
+  font-size: 150%;
+  margin-bottom: 5%;
+}
+.aboutUsImg img {
+  width: 100%;
 }
