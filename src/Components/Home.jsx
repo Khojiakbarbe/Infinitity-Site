@@ -62,7 +62,7 @@ export default function Home() {
             <div className="negaAyanBiz">
                 <h4>Nega aynan biz?</h4>
 
-                <div className="row mt-5" style={{overflow:'hidden'}}>
+                <div className="row mt-5" style={{ overflow: 'hidden' }}>
                     <div className="col-md-7 row mt-5" >
                         <div className="col-md-6">
                             <div data-aos="fade-right" className="negaAyanBizCol">
@@ -93,10 +93,10 @@ export default function Home() {
                                 Extra lessons
                             </div>
                         </div>
-                        <div data-aos="fade-left"  className="col-md-4 mt-3"><button className="batafsilBtn">Batafsil</button></div>
+                        <div data-aos="fade-left" className="col-md-4 mt-3"><button className="batafsilBtn">Batafsil</button></div>
                     </div>
                     <div data-aos="fade-left" className="col-md-5" style={{ textAlign: 'end' }}>
-                        <img  src={negaBizImg} className='negaBizImg' alt="" />
+                        <img src={negaBizImg} className='negaBizImg' alt="" />
                     </div>
                 </div>
             </div>
@@ -106,19 +106,34 @@ export default function Home() {
             <div className="bizningGalereya row ">
                 <h4 className="mb-5"><strong>Bizning galereya</strong></h4>
                 <div data-aos="fade-right" className="col-md-8 p-2">
-                    <img src={galereya1} alt="" />
+                    <div className="galleryImg">
+                        <img src={galereya1} />
+                    </div>
+                    <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus expedita quam minima, aperiam voluptate quas quae neque excepturi qui!</p>
                 </div>
                 <div data-aos="fade-left" className="col-md-4 p-2">
-                    <img src={galereya2} alt="" />
+                    <div className="galleryImg">
+                        <img src={galereya2} />
+                    </div>
+                    <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam!</p>
                 </div>
                 <div data-aos="fade-right" className="col-md-4 p-2">
-                    <img src={galereya3} alt="" />
-                </div>
-                <div data-aos="flip-left" className="col-md-4 p-2">
-                    <img src={galereya4} alt="" />
+                    <div className="galleryImg">
+                        <img src={galereya3} />
+                    </div>
+                    <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam excepturi laborum?</p>
                 </div>
                 <div data-aos="fade-left" className="col-md-4 p-2">
-                    <img src={galereya5} alt="" />
+                    <div className="galleryImg">
+                        <img src={galereya4} />
+                    </div>
+                    <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente.</p>
+                </div>
+                <div data-aos="fade-left" className="col-md-4 p-2">
+                    <div className="galleryImg">
+                        <img src={galereya5} />
+                    </div>
+                    <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat dignissimos architecto non!</p>
                 </div>
             </div>
 

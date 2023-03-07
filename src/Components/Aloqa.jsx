@@ -51,7 +51,7 @@ export default function Aloqa() {
             </div>
             <div>
                 <div className="mt-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d189.93264251815316!2d71.79315082454951!3d40.38841509734869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb8311af83fde9%3A0xa74f0a75c2c9e2c8!2sInfinity!5e0!3m2!1sru!2s!4v1678099545999!5m2!1sru!2s" width="100%" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d189.93264251815316!2d71.79315082454951!3d40.38841509734869!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb8311af83fde9%3A0xa74f0a75c2c9e2c8!2sInfinity!5e0!3m2!1sru!2s!4v1678099545999!5m2!1sru!2s" width="100%" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div >
