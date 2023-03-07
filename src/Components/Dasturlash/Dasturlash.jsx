@@ -26,7 +26,7 @@ export default function Dasturlash() {
                     <h1>Foundation</h1>
                     <h5 >Dasturlash sohasi bo’yicha hech qanday bilimga ega <br /> bo’lmagan har qanday inson dasturlash saboqlarini <br /> o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/foundation')}>Batafsil</button>
-                    <button className="batafsilBtn" style={{ marginLeft: '2%' }}>Kursga yozilish</button>
+                    <button className="batafsilBtn" style={{ marginLeft: '2%' }} onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ export default function Dasturlash() {
                     <h1>Frontend</h1>
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
                     <button className="batafsilBtn">Batafsil</button>
-                    <button className="batafsilBtn">Kursga yozilish</button>
+                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
                 </div>
                 <div className="col-md-6 ">
                     <img src={img2} alt="" />
@@ -53,7 +53,7 @@ export default function Dasturlash() {
                     <h1>Backend</h1>
                     <p>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</p>
                     <button className="batafsilBtn">Batafsil</button>
-                    <button className="batafsilBtn">Kursga yozilish</button>
+                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
                 </div>
             </div>
 

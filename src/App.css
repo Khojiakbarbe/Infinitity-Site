@@ -2,6 +2,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 /* Navbar */
 
 .kurslarBtn {
@@ -29,18 +30,38 @@ a {
 
 /* Home page started */
 /* Carousel */
-.carouselButtons button {
-  position: relative;
+.carouselButtons {
+  position: absolute;
+  bottom: -100%;
   left: -50%;
 }
 
-.carouselButtons button:active {
-  border: 5px solid;
+.carouselDot {
+  border-radius: 1px solid;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: #000;
 }
 
-.carouselButtons .active {
-  border: 1px solid red;
+.carouselButtons .dot::after {
+  border: 5px solid;
+  border-radius: 50%;
 }
+
+.carouselButtons li .active::after {
+  border-radius: 50%;
+  border: 1px solid;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin-right: 2%;
+}
+
+/* .carousel-indicators>li .dot.active::after{
+  border: 1px solid #E79215 !important;
+} */
+
 
 .batafsilBtn {
   border: 1px solid #E79215;
@@ -125,7 +146,7 @@ a {
   cursor: pointer;
 }
 
-.galleryTexts{
+.galleryTexts {
   width: 90%;
   margin: 0 auto;
   position: absolute;
@@ -137,14 +158,15 @@ a {
   padding: 1%;
   visibility: hidden;
   opacity: 0;
-}   
+}
 
-.galleryImg:hover + .galleryTexts{
+.galleryImg:hover+.galleryTexts {
   visibility: visible;
   opacity: 1;
   transition: 0.5s;
   transform: rotateY(20deg);
 }
+
 /* footer */
 .footer {
   padding: 5%;

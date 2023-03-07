@@ -16,7 +16,9 @@ import galereya5 from '../images/home/galereya5.jpg'
 import Aos from "aos";
 
 export default function Home() {
-    Aos.init();
+    Aos.init({
+        duration: 1200
+    });
     return (
         <div className="container p-3 mt-5">
             <div className="row">
@@ -37,7 +39,7 @@ export default function Home() {
                         <div>
                             <h2>Dasturlash</h2>
                             <p>Foundation, Frontend, Backend</p>
-                            <Link to="/">ko'rish </Link>
+                            <Link to="/dasturlash">ko'rish </Link>
                         </div>
                     </div>
                     <div data-aos="flip-up" className="col-md-4 p-3">

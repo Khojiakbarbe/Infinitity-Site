@@ -12,36 +12,40 @@ import React from "react";
 
 export default function Carousel() {
     return (
-        <div id="carouselExampleCaptions" className="carousel slide h-100 mt-5" data-bs-ride="carousel">
-            <div className="carousel-indicators carouselButtons" style={{ marginTop: '20%', zIndex: '5' }}>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators carouselButtons">
                 <button className="batafsilBtn">Batafsil</button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" className="border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" className="border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" className="border" style={{ borderRadius: '50%', height: '20px', width: '20px' }} aria-label="Slide 4"></button>
+                <li>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="0" class="dot active carouselDot" aria-current="true" aria-label="Slide 1"></button>
+                </li>
+                <li>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="1" className="dot carouselDot" aria-label="Slide 2"></button>
+                </li>
+                <li>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="2" className="dot carouselDot" aria-label="Slide 3"></button>
+                </li>
+                <li>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="3" className="dot carouselDot" aria-label="Slide 4"></button>
+                </li>
             </div>
-            <div className="carousel-inner mb-5" >
-                <div className="carousel-item active">
-                    <h1>Zamonaviy kasblarni biz <br /> bilan o’rganing</h1>
+            <div class="carousel-inner p-5">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
                 </div>
-                <div className="carousel-item">
-                    <h1>We change lives through <br /> education</h1>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
                 </div>
-                <div className="carousel-item">
-                    <h1>Hayotingizni ta'lim orqali <br /> o'zgartiramiz</h1>
+                <div class="carousel-item">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
                 </div>
-                <div className="carousel-item">
-                    <h1>Study modern subjects <br /> with us</h1>
+                <div class="carousel-item">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
         </div>
     )
 }
