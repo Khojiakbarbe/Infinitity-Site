@@ -7,13 +7,14 @@ import twitter from '../images/footer/twitter.png'
 import telegram from '../images/footer/telegram.png'
 
 
+import bg from '../images/footer/bgFooter.png'
+
 export default function Footer() {
     return (
         <div className='footer'>
-            <div 
-            data-aos="fade-down"
-                // data-aos-duration="8000"
-                className="container row p-5" style={{ margin: '0 auto', overflow:'hidden' }}>
+            <div
+                data-aos="fade-down"
+                className="container row p-5" style={{ margin: '0 auto', overflow: 'hidden' }}>
                 <div className="col-md-2">
                     <h5><strong>Dasturlash</strong></h5>
                     <p>FrontEnd</p>
@@ -57,6 +58,9 @@ export default function Footer() {
                 <div className="col-md-6 ">
                     <p className="text-end">+998 (71) 200-11-23</p>
                 </div>
+            </div>
+            <div className="bg">
+                <img src={bg} alt="" />
             </div>
         </div>
     )
