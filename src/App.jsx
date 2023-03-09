@@ -13,6 +13,7 @@ import './App.css';
 import English from './Components/Dasturlash/English';
 import Math from './Components/Dasturlash/Math';
 import Rustili from './Components/Dasturlash/Rustili';
+import Error from './Components/Error';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path='/matematika' element={<Math />} />
         <Route path='/aboutUs' element={<AboutUs />} />
         <Route path='/aloqa' element={<Aloqa />} />
+        <Route path='*' element={<Error />} />
       </Routes>
       <Footer />
     </Router>
