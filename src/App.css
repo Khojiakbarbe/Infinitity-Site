@@ -197,9 +197,22 @@ a {
 
 
 
-.messengers img {
-  padding: 1%;
+.messengers a{
   cursor: pointer;
+  padding: 3%;
+}
+.messengers a:hover{
+  box-shadow: -5px 5px 15px #E79215;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.messengers a:hover img{
+  transform: rotateY(360deg);
+  transition: 1s;
+}
+.messengers a:hover  svg{
+  transform: rotateY(360deg);
+  transition: 1s;
 }
 
 
