@@ -113,7 +113,7 @@ export default function Home() {
                     <div data-aos="fade-right" className="col-md-8 p-2">
                         <div className="gallery">
                             <img src={galereya1} />
-                            <p className="galleryTexts " style={{ width:'98%'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus expedita quam minima, aperiam voluptate quas quae neque excepturi qui!</p>
+                            <p className="galleryTexts pt-" style={{ width:'98%'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus expedita quam minima, aperiam voluptate quas quae neque excepturi qui!</p>
                         </div>
                     </div>
                     <div data-aos="fade-left" className="col-md-4 p-2">
