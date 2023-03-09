@@ -49,14 +49,14 @@ export default function Home() {
                             <div>
                                 <h2>Ingliz tili</h2>
                                 <p>Kids, General, IELTS</p>
-                                <Link to="/">ko'rish </Link>
+                                <Link to="/english">ko'rish </Link>
                             </div>
                         </div>
                         <div data-aos="fade-left" className="col-md-4 p-3">
                             <div>
                                 <h2>Matematika</h2>
                                 <p>Kichik va Katta yoshdagilar uchun</p>
-                                <Link to="/">ko'rish </Link>
+                                <Link to="/matematika">ko'rish </Link>
                             </div>
                         </div>
                     </div>

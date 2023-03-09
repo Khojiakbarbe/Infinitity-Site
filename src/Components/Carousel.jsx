@@ -6,25 +6,22 @@ import React from "react";
 
 
 
-
-
-
 export default function Carousel() {
     return (
         <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
             <div className="carousel-indicators carouselButtons">
                 <button className="batafsilBtn">Batafsil</button>
                 <li>
-                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="0" className="dot active carouselDot" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="0" className="active carouselDot" aria-current="true" aria-label="Slide 1"></button>
                 </li>
                 <li>
-                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="1" className="dot carouselDot" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="1" className="carouselDot" aria-label="Slide 2"></button>
                 </li>
                 <li>
-                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="2" className="dot carouselDot" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="2" className="carouselDot" aria-label="Slide 3"></button>
                 </li>
                 <li>
-                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="3" className="dot carouselDot" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" style={{ height: '15px', width: '15px' }} data-bs-slide-to="3" className="carouselDot" aria-label="Slide 4"></button>
                 </li>
             </div>
             <div className="carousel-inner p-5">

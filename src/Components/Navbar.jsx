@@ -78,7 +78,7 @@ function MyNavbar(args) {
                         </NavLink>
                     </NavbarText>
                     <NavbarText>
-                        <NavLink>
+                        <NavLink >
                             <Link to='/aloqa'>
                                 Aloqa
                             </Link>

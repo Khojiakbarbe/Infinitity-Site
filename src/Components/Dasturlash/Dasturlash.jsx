@@ -22,7 +22,7 @@ export default function Dasturlash() {
                 <div className="col-md-6 responsiveMargin">
                     <img src={img1} />
                 </div>
-                <div className="col-md-6 ">
+                <div className="col-md-6 " style={{ paddingRight: '5%' }}>
                     <h1>Foundation</h1>
                     <h5 >Dasturlash sohasi bo’yicha hech qanday bilimga ega <br /> bo’lmagan har qanday inson dasturlash saboqlarini <br /> o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/foundation')}>Batafsil</button>
@@ -35,10 +35,10 @@ export default function Dasturlash() {
             </div>
 
             <div className="dasturlashKurslar row">
-                <div className="col-md-6 responsiveMargin" style={{ textAlign: 'left' }}>
+                <div className="col-md-6 responsiveMargin" style={{ textAlign: 'left', paddingLeft: '5%' }}>
                     <h1>Frontend</h1>
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
-                    <button className="batafsilBtn">Batafsil</button>
+                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
                     <a href="https://forms.gle/c9cbTgV2uH1mScr26">
                         <button className="batafsilBtn" >
                             Kursga yozilish
@@ -57,10 +57,10 @@ export default function Dasturlash() {
                         <img src={img4} className='compImg' alt="" />
                     </div>
                 </div>
-                <div className="col-md-6 ">
+                <div className="col-md-6" style={{ paddingRight: '5%' }}>
                     <h1>Backend</h1>
                     <p>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</p>
-                    <button className="batafsilBtn">Batafsil</button>
+                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
                     <a href="https://forms.gle/c9cbTgV2uH1mScr26">
                         <button className="batafsilBtn">
                             Kursga yozilish
@@ -79,9 +79,10 @@ export default function Dasturlash() {
                     <div className="col-md-6 contactInputs">
                         <input type="text" placeholder="Name : " />
                         <input type="number" placeholder="Number: +998 " />
-                        <input type="e-mail" placeholder="E-mail : " />
                         <div style={{ textAlign: 'end' }}>
-                            <button>Send</button>
+                            <a href="https://forms.gle/mnZttWEf3LPoDS7y8">
+                                <button>Send</button>
+                            </a>
                         </div>
                     </div>
                 </div>

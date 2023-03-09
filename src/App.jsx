@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './Components/Home';
 import Footer from './Components/Footer';
 import MyNavbar from './Components/Navbar';
@@ -10,14 +10,14 @@ import Aloqa from './Components/Aloqa';
 
 
 import './App.css';
-import English from './Components/Dasturlash/English';
-import Math from './Components/Dasturlash/Math';
-import Rustili from './Components/Dasturlash/Rustili';
+import English from './Components/English';
+import Math from './Components/Math';
+import Rustili from './Components/Rustili';
 import Error from './Components/Error';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <MyNavbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -31,7 +31,7 @@ function App() {
         <Route path='*' element={<Error />} />
       </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
