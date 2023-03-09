@@ -10,6 +10,8 @@ import telegram from '../images/footer/telegram.png'
 import bg from '../images/footer/bgFooter.png'
 
 export default function Footer() {
+
+
     return (
         <div className='footer'>
             <div
@@ -43,10 +45,16 @@ export default function Footer() {
                         Ташкент г, площадь Хадра, улица Себзор
                     </p>
                     <div className="messengers">
-                        <img src={facebook} alt="" />
-                        <img src={instagram} alt="" />
+                        <a href="https://www.facebook.com/xojiakbar.nosiraliyev?mibextid=ZbWKwL">
+                            <img src={facebook} alt="" />
+                        </a>
+                        <a href="https://www.instagram.com/khojiakbarbek/">
+                            <img src={instagram} alt="" />
+                        </a>
                         <img src={twitter} alt="" />
-                        <img src={telegram} alt="" />
+                        <a href="https://telegram.me/xojiakbarbek">
+                            <img src={telegram} alt="" />
+                        </a>
                     </div>
                 </div>
             </div>

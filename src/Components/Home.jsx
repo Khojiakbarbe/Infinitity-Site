@@ -19,6 +19,7 @@ export default function Home() {
     Aos.init({
         duration: 1200
     });
+    
     return (
         <div className="homeBigDiv">
 
@@ -127,7 +128,7 @@ export default function Home() {
                         </div>
                         <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam excepturi laborum?</p>
                     </div>
-                    <div data-aos="fade-left" className="col-md-4 p-2">
+                    <div data-aos="fade-up" className="col-md-4 p-2">
                         <div className="galleryImg">
                             <img src={galereya4} />
                         </div>
