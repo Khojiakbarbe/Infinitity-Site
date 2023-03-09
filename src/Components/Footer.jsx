@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate , Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from '../images/navbar/infinityLogo.png'
 import location from '../images/home/location.png'
 import facebook from '../images/footer/facebook.png'
@@ -10,7 +10,6 @@ import bg from '../images/footer/bgFooter.png'
 
 export default function Footer() {
 
-    const navigate = useNavigate();
 
     return (
         <div className='footer'>
@@ -19,7 +18,7 @@ export default function Footer() {
                 className="container row p-5" style={{ margin: '0 auto', overflow: 'hidden' }}>
                 <div className="col-md-2">
                     <h5><strong>Dasturlash</strong></h5>
-                    <Link to="/dasturlash"><p> FrontEnd </p> </Link>
+                    <Link to="/dasturlash"><p> FrontEnd </p></Link>
                     <p>BackEnd</p>
                     <p>Foundation</p>
                     <p>Ux & Ui dizayn</p>
@@ -34,7 +33,7 @@ export default function Footer() {
                 </div>
                 <div className="col-md-2">
                     <h5><strong>Matematika</strong></h5>
-                    <p onClick={() => navigate('/')}>Mental arifmetika</p>                    
+                    <p>Mental arifmetika</p>                    
                     <p>Math for kids</p>
                     <p>Math for students</p>
                 </div>
