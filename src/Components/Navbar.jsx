@@ -30,59 +30,41 @@ function MyNavbar(args) {
                 </NavbarBrand>
                 <NavbarToggler className='bg-dark' onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="me-auto" navbar>
-                        <></>
-                    </Nav>
+                    <Nav className="me-auto" navbar></Nav>
                     <NavbarText>
-                        <NavLink >
-                            <div className="btn-group">
-                                <button className="kurslarBtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Kurslar
-                                </button>
-                                <ul className="dropdown-menu">
-                                    <Link to='/dasturlash'>
-                                        <li><a className="dropdown-item" >Dasturlash</a></li>
-                                    </Link>
-                                    <Link to='/english'>
-                                        <li><a className="dropdown-item" >English</a></li>
-                                    </Link>
-                                    <Link to='/rustili'>
-                                        <li><a className="dropdown-item" >Rus tili</a></li>
-                                    </Link>
-                                    <Link to='/matematika'>
-                                        <li><a className="dropdown-item" >Matematika</a></li>
-                                    </Link>
-                                </ul>
-                            </div>
-                        </NavLink>
+                        <div className="btn-group">
+                            <button className="kurslarBtn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kurslar
+                            </button>
+                            <ul className="dropdown-menu">
+                                <Link to='/dasturlash'>
+                                    <li><a className="dropdown-item" >Dasturlash</a></li>
+                                </Link>
+                                <Link to='/english'>
+                                    <li><a className="dropdown-item" >English</a></li>
+                                </Link>
+                                <Link to='/rustili'>
+                                    <li><a className="dropdown-item" >Rus tili</a></li>
+                                </Link>
+                                <Link to='/matematika'>
+                                    <li><a className="dropdown-item" >Matematika</a></li>
+                                </Link>
+                            </ul>
+                        </div>
                     </NavbarText>
-                    <NavbarText>
-                        <NavLink >
-                            <Link to='/aboutUs'>
-                                Biz haqimizda
-                            </Link>
-                        </NavLink>
-                    </NavbarText>
-                    <NavbarText>
-                        <NavLink >
-                            <Link to='/'>
-                                Gallereya
-                            </Link>
-                        </NavLink>
-                    </NavbarText>
-                    <NavbarText>
-                        <NavLink >
-                            <Link to='/'>
-                                O'zingizni sinang
-                            </Link>
-                        </NavLink>
-                    </NavbarText>
-                    <NavbarText>
-                        <NavLink >
-                            <Link to='/aloqa'>
-                                Aloqa
-                            </Link>
-                        </NavLink>
+                    <NavbarText className='navbarLinks'>
+                        <Link to='/aboutUs'>
+                            Biz haqimizda
+                        </Link>
+                        <Link to='/'>
+                            Gallereya
+                        </Link>
+                        <Link to='/'>
+                            O'zingizni sinang
+                        </Link>
+                        <Link to='/aloqa'>
+                            Aloqa
+                        </Link>
                     </NavbarText>
                     <NavbarText style={{ width: '15%' }}>
                         <a href="https://forms.gle/c9cbTgV2uH1mScr26">
