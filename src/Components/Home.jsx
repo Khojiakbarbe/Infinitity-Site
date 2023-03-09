@@ -19,7 +19,7 @@ export default function Home() {
     Aos.init({
         duration: 1200
     });
-    
+
     return (
         <div className="homeBigDiv">
 
@@ -111,34 +111,34 @@ export default function Home() {
                 <div className="bizningGalereya row ">
                     <h4 className="mb-5"><strong>Bizning galereya</strong></h4>
                     <div data-aos="fade-right" className="col-md-8 p-2">
-                        <div className="galleryImg">
+                        <div className="gallery">
                             <img src={galereya1} />
+                            <p className="galleryTexts " style={{ width:'98%'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus expedita quam minima, aperiam voluptate quas quae neque excepturi qui!</p>
                         </div>
-                        <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus expedita quam minima, aperiam voluptate quas quae neque excepturi qui!</p>
                     </div>
                     <div data-aos="fade-left" className="col-md-4 p-2">
-                        <div className="galleryImg">
+                        <div className="gallery">
                             <img src={galereya2} />
+                            <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam!</p>
                         </div>
-                        <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam!</p>
                     </div>
                     <div data-aos="fade-right" className="col-md-4 p-2">
-                        <div className="galleryImg">
+                        <div className="gallery">
                             <img src={galereya3} />
+                            <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam excepturi laborum?</p>
                         </div>
-                        <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quibusdam excepturi laborum?</p>
                     </div>
                     <div data-aos="fade-up" className="col-md-4 p-2">
-                        <div className="galleryImg">
+                        <div className="gallery">
                             <img src={galereya4} />
+                            <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente.</p>
                         </div>
-                        <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente.</p>
                     </div>
                     <div data-aos="fade-left" className="col-md-4 p-2">
-                        <div className="galleryImg">
+                        <div className="gallery">
                             <img src={galereya5} />
+                            <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat dignissimos architecto non!</p>
                         </div>
-                        <p className="galleryTexts">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat dignissimos architecto non!</p>
                     </div>
                 </div>
 
