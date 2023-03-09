@@ -10,6 +10,9 @@ import Aloqa from './Components/Aloqa';
 
 
 import './App.css';
+import English from './Components/Dasturlash/English';
+import Math from './Components/Dasturlash/Math';
+import Rustili from './Components/Dasturlash/Rustili';
 
 function App() {
   return (
@@ -18,9 +21,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/dasturlash' element={<Dasturlash />} />
-        <Route path='/foundation' element={<Foundation />}/>
-        <Route path='/aboutUs' element={<AboutUs />}/>
-        <Route path='/aloqa' element={<Aloqa />}/>
+        <Route path='/foundation' element={<Foundation />} />
+        <Route path='/english' element={<English />} />
+        <Route path='/rustili' element={<Rustili />} />
+        <Route path='/matematika' element={<Math />} />
+        <Route path='/aboutUs' element={<AboutUs />} />
+        <Route path='/aloqa' element={<Aloqa />} />
       </Routes>
       <Footer />
     </Router>

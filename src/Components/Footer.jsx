@@ -51,8 +51,10 @@ export default function Footer() {
                         <a href="https://www.instagram.com/khojiakbarbek/">
                             <img src={instagram} alt="" />
                         </a>
-                        <img src={twitter} alt="" />
-                        <a href="https://telegram.me/xojiakbarbek">
+                        <a href="https://t.me/Jaloliddin_usm">
+                            <img src={twitter} alt="" />
+                        </a>
+                        <a href="https://t.me/InfinityFergana">
                             <img src={telegram} alt="" />
                         </a>
                     </div>

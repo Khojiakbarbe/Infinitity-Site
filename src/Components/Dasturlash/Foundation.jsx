@@ -20,7 +20,11 @@ export default function Foundation() {
                 <div className="col-md-6" style={{ textAlign: 'left' }}>
                     <h1>Foundation</h1>
                     <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using is that it has a more-or-less normal distribution </h5>
-                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
+                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                        <button className="batafsilBtn" >
+                            Kursga yozilish
+                        </button>
+                    </a>
                 </div>
                 <div className="col-md-6 foundationImages ">
                     <img src={img1} className='foundationImg1' />

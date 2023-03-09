@@ -7,14 +7,14 @@ import img4 from '../../images/dasturlash/img4.png'
 import img5 from '../../images/dasturlash/img5.png'
 
 export default function Dasturlash() {
-    
+
     const navigate = useNavigate();
 
     return (
         <div className="container mb-5">
             <p className="mb-5">
-                <span onClick={() => navigate('/')} style={{cursor:'pointer'}}>
-                    Home 
+                <span onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
+                    Home
                 </span>
                 | Dasturlash
             </p>
@@ -26,7 +26,11 @@ export default function Dasturlash() {
                     <h1>Foundation</h1>
                     <h5 >Dasturlash sohasi bo’yicha hech qanday bilimga ega <br /> bo’lmagan har qanday inson dasturlash saboqlarini <br /> o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/foundation')}>Batafsil</button>
-                    <button className="batafsilBtn" style={{ marginLeft: '2%' }} onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
+                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                        <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
+                            Kursga yozilish
+                        </button>
+                    </a>
                 </div>
             </div>
 
@@ -35,7 +39,11 @@ export default function Dasturlash() {
                     <h1>Frontend</h1>
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
                     <button className="batafsilBtn">Batafsil</button>
-                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
+                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                        <button className="batafsilBtn" >
+                            Kursga yozilish
+                        </button>
+                    </a>
                 </div>
                 <div className="col-md-6 ">
                     <img src={img2} alt="" />
@@ -53,7 +61,11 @@ export default function Dasturlash() {
                     <h1>Backend</h1>
                     <p>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</p>
                     <button className="batafsilBtn">Batafsil</button>
-                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Kursga yozilish</button>
+                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                        <button className="batafsilBtn">
+                            Kursga yozilish
+                        </button>
+                    </a>
                 </div>
             </div>
 

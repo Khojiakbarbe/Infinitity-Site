@@ -23,8 +23,10 @@ function MyNavbar(args) {
     return (
         <div className="container">
             <Navbar {...args} expand='lg'>
-                <NavbarBrand href="/">
-                    <img src={logo} className='img-fluid' />
+                <NavbarBrand >
+                    <Link to='/'>
+                        <img src={logo} className='img-fluid' />
+                    </Link>
                 </NavbarBrand>
                 <NavbarToggler className='bg-dark' onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
@@ -41,10 +43,13 @@ function MyNavbar(args) {
                                     <Link to='/dasturlash'>
                                         <li><a className="dropdown-item" >Dasturlash</a></li>
                                     </Link>
-                                    <Link to='/'>
+                                    <Link to='/english'>
                                         <li><a className="dropdown-item" >English</a></li>
                                     </Link>
-                                    <Link to='/'>
+                                    <Link to='/rustili'>
+                                        <li><a className="dropdown-item" >Rus tili</a></li>
+                                    </Link>
+                                    <Link to='/matematika'>
                                         <li><a className="dropdown-item" >Matematika</a></li>
                                     </Link>
                                 </ul>
@@ -59,6 +64,20 @@ function MyNavbar(args) {
                         </NavLink>
                     </NavbarText>
                     <NavbarText>
+                        <NavLink >
+                            <Link to='/'>
+                                Gallereya
+                            </Link>
+                        </NavLink>
+                    </NavbarText>
+                    <NavbarText>
+                        <NavLink >
+                            <Link to='/'>
+                                O'zingizni sinang
+                            </Link>
+                        </NavLink>
+                    </NavbarText>
+                    <NavbarText>
                         <NavLink>
                             <Link to='/aloqa'>
                                 Aloqa
@@ -66,7 +85,11 @@ function MyNavbar(args) {
                         </NavLink>
                     </NavbarText>
                     <NavbarText style={{ width: '15%' }}>
-                        <button className='applyButton'>Ro'yhatdan o'tish</button>
+                        <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                            <button className='applyButton' >
+                                Ro'yhatdan o'tish
+                            </button>
+                        </a>
                     </NavbarText>
                 </Collapse>
             </Navbar>
