@@ -24,25 +24,43 @@ export default function Footer() {
                 <div className="col-md-2">
                     <h5><strong>Dasturlash</strong></h5>
                     <Link to='/dasturlash'>
-                    <p> FrontEnd </p>
+                        <p> FrontEnd </p>
                     </Link>
-                    <p>BackEnd</p>
-                    <p>Foundation</p>
+                    <Link to='/dasturlash'>
+                        <p>BackEnd</p>
+                    </Link>
+                    <Link to='/dasturlash'>
+                        <p>Foundation</p>
+                    </Link>
                     <p>Ux & Ui dizayn</p>
                     <p>Veb dizayn</p>
                 </div>
                 <div className="col-md-2">
                     <h5><strong>Ingliz tili</strong></h5>
-                    <p>English for kids</p>
-                    <p>General english</p>
-                    <p>English for IT</p>
-                    <p>IELTS</p>
+                    <Link to='/english'>
+                        <p>English for kids</p>
+                    </Link>
+                    <Link to='/english'>
+                        <p>General english</p>
+                    </Link>
+                    <Link to='/english'>
+                        <p>English for IT</p>
+                    </Link>
+                    <Link to='/english'>
+                        <p>IELTS</p>
+                    </Link>
                 </div>
                 <div className="col-md-2">
                     <h5><strong>Matematika</strong></h5>
-                    <p>Mental arifmetika</p>
-                    <p>Math for kids</p>
-                    <p>Math for students</p>
+                    <Link to='/matematika'>
+                        <p>Mental arifmetika</p>
+                    </Link>
+                    <Link to='/matematika'>
+                        <p>Math for kids</p>
+                    </Link>
+                    <Link to='/matematika'>
+                        <p>Math for students</p>
+                    </Link>
                 </div>
                 <div className="col-md-6" style={{ paddingLeft: '10%' }} >
                     <img src={logo} />

@@ -66,7 +66,7 @@ function MyNavbar(args) {
                         </Link>
                     </NavbarText>
                     <NavbarText style={{ width: '15%' }}>
-                        <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                        <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
                             <button className='applyButton' >
                                 Ro'yhatdan o'tish
                             </button>

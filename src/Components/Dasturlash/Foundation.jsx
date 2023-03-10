@@ -20,7 +20,7 @@ export default function Foundation() {
                 <div className="col-md-6" style={{ textAlign: 'left' }}>
                     <h1>Foundation</h1>
                     <h5>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using is that it has a more-or-less normal distribution </h5>
-                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
                         <button className="batafsilBtn" >
                             Kursga yozilish
                         </button>

@@ -26,7 +26,7 @@ export default function Dasturlash() {
                     <h1>Foundation</h1>
                     <h5 >Dasturlash sohasi bo’yicha hech qanday bilimga ega <br /> bo’lmagan har qanday inson dasturlash saboqlarini <br /> o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/foundation')}>Batafsil</button>
-                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>
@@ -39,7 +39,7 @@ export default function Dasturlash() {
                     <h1>Frontend</h1>
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
                         <button className="batafsilBtn" >
                             Kursga yozilish
                         </button>
@@ -61,7 +61,7 @@ export default function Dasturlash() {
                     <h1>Backend</h1>
                     <p>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</p>
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/c9cbTgV2uH1mScr26">
+                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
                         <button className="batafsilBtn">
                             Kursga yozilish
                         </button>
@@ -80,7 +80,7 @@ export default function Dasturlash() {
                         <input type="text" placeholder="Name : " />
                         <input type="number" placeholder="Number: +998 " />
                         <div style={{ textAlign: 'end' }}>
-                            <a href="https://forms.gle/mnZttWEf3LPoDS7y8">
+                            <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
                                 <button>Send</button>
                             </a>
                         </div>
