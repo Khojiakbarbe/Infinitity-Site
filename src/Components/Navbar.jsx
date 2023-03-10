@@ -5,7 +5,6 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavLink,
     NavbarText
 } from 'reactstrap';
 import { Link } from 'react-router-dom';

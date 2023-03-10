@@ -190,15 +190,8 @@ a {
   padding-bottom: 0;
   background: #FEF8F1;
   overflow: hidden;
-}
-
-.bg img {
-  width: 60%;
-  height: 100%;
-  opacity: 0.21;
-  z-index: 5;
-  margin-top: -31%;
-  margin-left: -10%;
+  background-image: url(images/footer/InfinitySymbol.png);
+  background-repeat: no-repeat;
 }
 
 
