@@ -274,6 +274,36 @@ a {
   }
 }
 
+
+/* English */
+.englishCourse {
+  border: 1px solid #D1D5DB;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: end;
+  padding-top: 5%;
+  font-family: 'Poppins';
+}
+
+.englishCourse img {
+  margin-top: -18%;
+  width: 90%;
+  margin-bottom: -10%;
+}
+
+.englishCourse h1 {
+  font-size: 400%;
+  font-weight: 700;
+}
+
+.englishCourse h5 {
+  font-size: 150%;
+  margin-bottom: 15%;
+}
+
+
+
+/* Contact Us */
 .contactUs {
   border: 1px solid #D1D5DB;
   margin-top: 5%;
