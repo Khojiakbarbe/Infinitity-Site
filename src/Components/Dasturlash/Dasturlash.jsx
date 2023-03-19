@@ -5,6 +5,7 @@ import img2 from '../../images/dasturlash/img2.png'
 import img3 from '../../images/dasturlash/img3.png'
 import img4 from '../../images/dasturlash/img4.png'
 import img5 from '../../images/dasturlash/img5.png'
+import imgReact from '../../images/dasturlash/imgReact.png'
 
 export default function Dasturlash() {
 
@@ -66,6 +67,22 @@ export default function Dasturlash() {
                             Kursga yozilish
                         </button>
                     </a>
+                </div>
+            </div>
+
+            <div className="dasturlashKurslar row">
+                <div className="col-md-6 responsiveMargin" style={{ textAlign: 'left', paddingLeft: '5%' }}>
+                    <h1>React</h1>
+                    <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
+                    <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
+                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                        <button className="batafsilBtn" >
+                            Kursga yozilish
+                        </button>
+                    </a>
+                </div>
+                <div className="col-md-6 ">
+                    <img src={imgReact} style={{width:"100%"}} alt="" />
                 </div>
             </div>
 
