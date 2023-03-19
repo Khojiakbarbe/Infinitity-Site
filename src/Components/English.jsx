@@ -11,7 +11,7 @@ export default function English() {
     const navigate = useNavigate();
 
     return (
-        <div className="container mb-5">
+        <div className="container mb-5 mt-5">
             <div className="englishCourse row ">
                 <div className="col-md-6">
                     <img src={img1} alt="" />
