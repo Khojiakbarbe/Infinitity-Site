@@ -18,19 +18,21 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <MyNavbar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/dasturlash' element={<Dasturlash />} />
-        <Route path='/foundation' element={<Foundation />} />
-        <Route path='/english' element={<English />} />
-        <Route path='/rustili' element={<Rustili />} />
-        <Route path='/matematika' element={<Math />} />
-        <Route path='/aboutUs' element={<AboutUs />} />
-        <Route path='/aloqa' element={<Aloqa />} />
-        <Route path='*' element={<Error />} />
-      </Routes>
+      <div className='controlBg'>
+        <MyNavbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/dasturlash' element={<Dasturlash />} />
+          <Route path='/foundation' element={<Foundation />} />
+          <Route path='/english' element={<English />} />
+          <Route path='/rustili' element={<Rustili />} />
+          <Route path='/matematika' element={<Math />} />
+          <Route path='/aboutUs' element={<AboutUs />} />
+          <Route path='/aloqa' element={<Aloqa />} />
+          <Route path='*' element={<Error />} />
+        </Routes>
       <Footer />
+      </div>
     </Router>
   );
 }

@@ -43,12 +43,13 @@ a {
 
 /* Home page started */
 
-.homeBigDiv {
+.controlBg {
   background-image: url(images/home/headerBg.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-top: -5% !important;
-  padding-top: 5%;
+  /* margin-top: -5% !important; */
+  padding-top: 0px;
+  background-attachment:local;
 }
 
 /* Carousel */
@@ -192,6 +193,9 @@ a {
   overflow: hidden;
   background-image: url(images/footer/InfinitySymbol.png);
   background-repeat: no-repeat;
+  position:relative;
+  bottom: 0px !important;
+  width: 100%;
 }
 
 
