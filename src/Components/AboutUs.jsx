@@ -3,7 +3,6 @@ import Aos from "aos";
 
 import img from '../images/aboutUs/aboutUsInfinity.png'
 import row from '../images/aboutUs/row.png'
-import ourTeam1 from '../images/aboutUs/ourTeam1.jpg'
 
 
 // Teachers
