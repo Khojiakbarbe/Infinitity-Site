@@ -27,7 +27,7 @@ export default function Dasturlash() {
                     <h1>Foundation</h1>
                     <h5 >Dasturlash sohasi bo’yicha hech qanday bilimga ega <br /> bo’lmagan har qanday inson dasturlash saboqlarini <br /> o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/foundation')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>
@@ -40,7 +40,7 @@ export default function Dasturlash() {
                     <h1>Frontend</h1>
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" >
                             Kursga yozilish
                         </button>
@@ -62,7 +62,7 @@ export default function Dasturlash() {
                     <h1>Backend</h1>
                     <p>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</p>
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn">
                             Kursga yozilish
                         </button>
@@ -75,7 +75,7 @@ export default function Dasturlash() {
                     <h1>React</h1>
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" >
                             Kursga yozilish
                         </button>

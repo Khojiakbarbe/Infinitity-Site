@@ -13,7 +13,7 @@ export default function Math() {
                     <h1>Matematika</h1>
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deleniti quidem sapiente aliquam magnam molestiae.</h5>
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>

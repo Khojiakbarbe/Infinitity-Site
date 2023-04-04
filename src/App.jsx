@@ -31,7 +31,7 @@ function App() {
           <Route path='/aloqa' element={<Aloqa />} />
           <Route path='*' element={<Error />} />
         </Routes>
-      <Footer />
+        <Footer />
       </div>
     </Router>
   );

@@ -66,13 +66,13 @@ export default function Footer() {
                     <img src={logo} />
                     <p>
                         <img src={location} style={{ width: '8%' }} className='p-2' />
-                        Ташкент г, площадь Хадра, улица Себзор
+                        Yoshlik ko'chasi,Farg'ona
                     </p>
                     <div className="messengers">
-                        <a href="https://www.facebook.com/xojiakbar.nosiraliyev?mibextid=ZbWKwL">
+                        <a href="https://www.facebook.com/InfinityFergana/">
                             <img src={facebook} alt="" />
                         </a>
-                        <a href="https://www.instagram.com/khojiakbarbek/">
+                        <a href="https://www.instagram.com/infinityfergana/">
                             <img src={instagram} alt="" />
                         </a>
                         <a href="https://t.me/Jaloliddin_usm">
@@ -92,7 +92,7 @@ export default function Footer() {
                     <p>© 2022. All rights reserved</p>
                 </div>
                 <div className="col-md-6 ">
-                    <p className="text-end">+998 (71) 200-11-23</p>
+                    <p className="text-end">+998 (95) 485-70-70</p>
                 </div>
             </div>
         </div>

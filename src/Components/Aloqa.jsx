@@ -27,22 +27,23 @@ export default function Aloqa() {
                     </h5>
                     <h5>
                         <img src={tell} />
-                        +998 99 606-43-73
+                        
+                    +998-95-485-7070
                     </h5>
                     <button >
-                        <a href="https://www.facebook.com/xojiakbar.nosiraliyev?mibextid=ZbWKwL">
+                        <a href="https://www.facebook.com/InfinityFergana/">
                             <img src={facebook} alt="" />
                             facebook
                         </a>
                     </button>
                     <button>
-                        <a href="https://www.instagram.com/khojiakbarbek/">
+                        <a href="https://www.instagram.com/infinityfergana/">
                             <img src={instagram} alt="" />
                             instagram
                         </a>
                     </button>
                     <button>
-                        <a href="https://telegram.me/xojiakbarbek">
+                        <a href="https://t.me/InfinityFergana">
                             <img src={telegram} alt="" />
                             telegram
                         </a>

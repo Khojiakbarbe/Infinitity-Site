@@ -55,9 +55,9 @@ function MyNavbar(args) {
                         <Link to='/aboutUs'>
                             Biz haqimizda
                         </Link>
-                        <Link to='/'>
+                        <a href='#gallery'>
                             Gallereya
-                        </Link>
+                        </a>
                         <Link to='/'>
                             O'zingizni sinang
                         </Link>
@@ -66,7 +66,7 @@ function MyNavbar(args) {
                         </Link>
                     </NavbarText>
                     <NavbarText style={{ width: '15%' }}>
-                        <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                        <a href="https://t.me/InfinityFergana">
                             <button className='applyButton' >
                                 Ro'yhatdan o'tish
                             </button>

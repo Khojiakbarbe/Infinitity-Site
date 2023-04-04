@@ -21,7 +21,7 @@ export default function English() {
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>
@@ -34,7 +34,7 @@ export default function English() {
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>
@@ -53,7 +53,7 @@ export default function English() {
                     <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>
@@ -66,7 +66,7 @@ export default function English() {
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, voluptates!</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
-                    <a href="https://forms.gle/o3JjMAxcQf1HyY3Z9">
+                    <a href="https://t.me/InfinityFergana">
                         <button className="batafsilBtn" style={{ marginLeft: '2%' }}>
                             Kursga yozilish
                         </button>
