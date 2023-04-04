@@ -27,7 +27,7 @@ function MyNavbar(args) {
                         <img src={logo} className='img-fluid' />
                     </Link>
                 </NavbarBrand>
-                <NavbarToggler className='bg-dark' onClick={toggle} />
+                <NavbarToggler className='border bg-white' onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="me-auto" navbar></Nav>
                     <NavbarText>
