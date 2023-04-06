@@ -58,9 +58,9 @@ function MyNavbar(args) {
                         <a href='#gallery'>
                             Gallereya
                         </a>
-                        <Link to='/'>
+                        <a href="https://test.infinityf.uz/">
                             O'zingizni sinang
-                        </Link>
+                        </a>
                         <Link to='/aloqa'>
                             Aloqa
                         </Link>

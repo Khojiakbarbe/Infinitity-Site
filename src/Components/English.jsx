@@ -18,7 +18,7 @@ export default function English() {
                 </div>
                 <div className="col-md-6 p-5 responsiveMargin" style={{paddingLeft:'6%'}}>
                     <h1>General English</h1>
-                    <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore quidem odit?</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
                     <a href="https://t.me/InfinityFergana">
@@ -31,7 +31,7 @@ export default function English() {
             <div className="englishCourse row ">
                 <div className="col-md-6 pb-5 text-start responsiveMargin" style={{paddingLeft:'6%'}}>
                     <h1>IELTS</h1>
-                    <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore quidem odit?</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
                     <a href="https://t.me/InfinityFergana">
@@ -50,7 +50,7 @@ export default function English() {
                 </div>
                 <div className="col-md-6 pb-5 responsiveMargin" style={{paddingLeft:'6%'}}>
                     <h1>CEFR</h1>
-                    <h5>Dasturlash sohasi bo’yicha hech qanday bilimga ega bo’lmagan har qanday inson dasturlash saboqlarini o’rganishi mumkin</h5>
+                    <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores tempore quidem odit?</h5>
 
                     <button className="batafsilBtn" onClick={() => navigate('/aloqa')}>Batafsil</button>
                     <a href="https://t.me/InfinityFergana">

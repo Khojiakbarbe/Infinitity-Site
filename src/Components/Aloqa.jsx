@@ -28,7 +28,7 @@ export default function Aloqa() {
                     <h5>
                         <img src={tell} />
                         
-                    +998-95-485-7070
+                    +998-95-485-70-70
                     </h5>
                     <button >
                         <a href="https://www.facebook.com/InfinityFergana/">
